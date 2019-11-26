@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainTabBar.swift
 //  CoreDataTuto
 //
 //  Created by Lauriane Haydari on 26/11/2019.
@@ -8,13 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainTabBar: UITabBarController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tabBar.tintColor = .black
+        tabBar.unselectedItemTintColor = .lightGray
 
-        // Do any additional setup after loading the view.
     }
+    
 
+   
 
 }
